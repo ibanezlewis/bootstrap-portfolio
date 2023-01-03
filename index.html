@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair Display|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <title>Lewis Murray | Bootstrap Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+        <a class="navbar-brand" href="#"><img src="/assets/images/lewis-murray.jpeg" height="50" width="50"> Lewis Murray</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#work">My Work <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Contact</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mailto:hello@lewismurray.co.uk" target="_blank">Email</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://lewismurray.co.uk/" target="_blank">Website</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.instagram.com/lewismurrayphotography/" target="_blank">Instagram</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End navigation bar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron Background">
+        <div class="jumboCopy">
+            <h1 class="display-4">Lewis Murray</h1>
+            <p class="lead">UX Specialist, Photographer & Web Developer</p>
+            <a class="btn btn-primary btn-lg" href="#work" role="button">Learn more</a>
+        </div>
+    </div>
+    <!-- End jumbotron -->
+    <!-- Cards -->
+    <div class="container-fluid content">
+        <h2 class="sectionHeading">My Work</h2>
+        <div id="work"></div>
+        <div class="row work">
+            <!-- Card 1 -->
+            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="card h-100">
+                    <img src="/assets/images/ux-design.jpg" class="card-img-top" alt="UX Design">
+                    <div class="card-body">
+                        <h5 class="card-title">UX Design</h5>
+                        <p class="card-text">With a diploma in UX Design from Glasgow Caledonian University, I have worked with multiple brands to build rewarding user experiences</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End card 1 -->
+
+            <!-- Card 2 -->
+            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="card h-100">
+                    <img src="/assets/images/lewis-photography.jpg" class="card-img-top" alt="Lewis Murray Photography">
+                    <div class="card-body">
+                        <h5 class="card-title">Photography</h5>
+                        <p class="card-text">As a wedding and landscape photographer, I capture memories to treasure of special days and spectacular sights</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End card 2 -->
+
+            <!-- Card 3 -->
+            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                <div class="card h-100">
+                    <img src="/assets/images/html.jpg" class="card-img-top" alt="HTML">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Developer</h5>
+                        <p class="card-text">I'm currently learning to code! This portfolio page is built using Bootstrap as a way to practice my skills</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End card 3 -->
+
+        </div>
+    </div>
+    <!-- End cards -->
+
+    <!-- Content -->
+    <div class="container-fluid content">
+        <div id="skills"></div>
+        <h2 class="sectionHeading">My Skills</h2>
+
+        <!-- Row 1 -->
+        <div class="row valueProp">
+            <div class="sideAccent">
+            </div>
+            <div class="col-3 imageContainer">
+                <img src="/assets/images/ux-interface.png">
+            </div>
+            <div class="col-8">
+                <h3>UX Design</h3>
+                <p>I can create user journeys with considerable thought towards both business objectives and ease of use.</p>
+            </div>
+        </div>
+        <!-- End row 1 -->
+
+        <!-- Row 2 -->
+        <div class="row valueProp">
+            <div class="sideAccent">
+            </div>
+            <div class="imageContainer col-3">
+                <img src="/assets/images/camera.png">
+            </div>
+            <div class="text col-8">
+                <h3>Photography</h3>
+                <p>I can use a camera and a lens to capture remarkable images!</p>
+            </div>
+        </div>
+        <!-- End row 2 -->
+
+        <!-- Row 3 -->
+        <div class="row valueProp">
+            <div class="sideAccent">
+            </div>
+            <div class="imageContainer col-3">
+                <img src="/assets/images/programming.png">
+            </div>
+            <div class="text col-8">
+                <h3>Web Development</h3>
+                <p>I know HTML, CSS and I'm currently working on JavaScript.</p>
+            </div>
+        </div>
+    <!-- End row 3 -->
+
+    <!-- End content -->
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact me for more information today!</p>
+    </footer>
+    <!-- End footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
