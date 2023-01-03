@@ -22,7 +22,7 @@ To setup this repository, simply download the files top your local machine and u
 
 The image below shows the intended layout of the mock landing page:
 
-![Intended landing page screenshot](https://github.com/ibanezlewis/my-portfolio/blob/main/assets/images/screenshot.png)
+![Intended landing page screenshot](https://github.com/ibanezlewis/bootstrap-portfolio/blob/main/assets/images/readme-image.png)
 
 You can [view the landing page here](https://ibanezlewis.github.io/bootstrap-portfolio/).
 
