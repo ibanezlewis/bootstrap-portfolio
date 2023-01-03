@@ -24,7 +24,7 @@ The image below shows the intended layout of the mock landing page:
 
 ![Intended landing page screenshot](https://github.com/ibanezlewis/my-portfolio/blob/main/assets/images/screenshot.png)
 
-You can [view the landing page here](https://ibanezlewis.github.io/my-portfolio/).
+You can [view the landing page here](https://ibanezlewis.github.io/bootstrap-portfolio/).
 
 Not all links currently function, however will be added to as time progresses.
 
